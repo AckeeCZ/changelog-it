@@ -1,0 +1,33 @@
+{
+  "name": "changelog-it",
+  "version": "0.1.0",
+  "description": "Easy to use tool for maintaining your changelog if you release with `npm version`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AckeeCZ/changelog-it.git"
+  },
+  "keywords": [
+    "changelog",
+    "cli"
+  ],
+  "author": "Lukas Horak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AckeeCZ/changelog-it/issues"
+  },
+  "homepage": "https://github.com/AckeeCZ/changelog-it#readme",
+  "dependencies": {
+    "keep-a-changelog": "^0.7.0",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "prettier-config-ackee": "0.0.13"
+  },
+  "bin": {
+    "changelog-it": "bin.js"
+  }
+}
