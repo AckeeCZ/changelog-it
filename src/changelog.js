@@ -6,7 +6,7 @@ const _ = require('lodash');
 
 const rootPath = path.resolve(__dirname, '../../..');
 
-const { version, repository } = require(rootPath, 'package.json');
+const { version, repository } = require(path.resolve(rootPath, 'package.json'));
 
 const changelogPath = path.resolve(rootPath, 'CHANGELOG.md');
 
