@@ -11,8 +11,11 @@ const { version, repository } = require(path.resolve(rootPath, 'package.json'));
 const changelogPath = path.resolve(rootPath, 'CHANGELOG.md');
 
 const changelog = parser(fs.readFileSync(changelogPath, 'UTF-8'));
+
 const today = new Date();
-const date = `${today.getFullYear()}-${today.getMonth() + 1}-${today.getDate()}`;
+const month = _.padStart(today.getMonth() + 1, 2, '0');
+const todayDate = _.padStart(today.getDate(), 2, '0');
+const date = `${today.getFullYear()}-${month}-${todayDate}`;
 
 const lastReleaseVersion = changelog.releases[0].version.raw;
 const nextRelease = new Release(version, date);
@@ -54,5 +57,4 @@ commits
   });
 
 changelog.addRelease(nextRelease);
-
 fs.writeFileSync(changelogPath, changelog.toString());
