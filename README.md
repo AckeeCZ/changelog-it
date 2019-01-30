@@ -15,9 +15,15 @@ Using npm:
 npm i -s AckeeCZ/changelog-it
 ```
 
+Add `.npmrc` into root of your repository with following content:
+
+```bash
+tag-version-prefix=""
+```
+
 ## New changelog
 
-Initialization of new changelog is currently not available (but planned for some of next releases). Current best way to initialize new Changelog is to execute command
+Initialization of new changelog is currently not available (but planned for some of next releases). Current best way to initialize new Changelog is to execute command:
 
 ```bash
 npx auto-changelog --template keepachangelog -l 20 -b 20
@@ -25,7 +31,7 @@ npx auto-changelog --template keepachangelog -l 20 -b 20
 
 ## Usage
 
-Using the package now is very simply, just call it's binary
+Using the package now is very simply, just call it's binary:
 
 ```bash
 changelog-it

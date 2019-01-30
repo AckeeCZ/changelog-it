@@ -4,7 +4,9 @@
   "description": "Easy to use tool for maintaining your changelog if you release with `npm version`",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "PKG_PATH=$(pwd) node index.js && vim CHANGELOG.md && git add CHANGELOG.md",
+    "lol": "echo pwd"
   },
   "repository": {
     "type": "git",

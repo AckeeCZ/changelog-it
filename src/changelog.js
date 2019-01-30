@@ -4,7 +4,7 @@ const childProcess = require('child_process');
 const { parser, Release } = require('keep-a-changelog');
 const _ = require('lodash');
 
-const rootPath = path.resolve(__dirname, '../../..');
+const rootPath = process.env.PKG_PATH || path.resolve(__dirname, '../../..');
 
 const { version, repository } = require(path.resolve(rootPath, 'package.json'));
 
