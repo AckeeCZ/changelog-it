@@ -23,10 +23,10 @@ tag-version-prefix=""
 
 ## New changelog
 
-Initialization of new changelog is currently not available (but planned for some of next releases). Current best way to initialize new Changelog is to execute command:
+To generate new changelog file, run:
 
 ```bash
-npx auto-changelog --template keepachangelog -l 20 -b 20
+changelog-it new
 ```
 
 ## Usage
