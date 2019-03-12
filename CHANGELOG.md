@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.3.0] - 2019-03-12
+### Added
+- Command for generating new changelog
+- `commander` for easily processing bin inputs
+
 ## [0.2.1] - 2019-01-30
 ### Fixed
 - Creating date for release record
@@ -23,7 +28,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
   
   [0.2.0]: git+https://github.com/AckeeCZ/changelog-it.git/compare/v0.1.1...v0.2.0
   [0.1.1]: git+https://github.com/AckeeCZ/changelog-it.git/compare/v0.1.0...v0.1.1
+  
+  [0.2.1]: git+https://github.com/AckeeCZ/changelog-it.git/compare/v0.2.0...v0.2.1
+  [0.2.0]: git+https://github.com/AckeeCZ/changelog-it.git/compare/v0.1.1...v0.2.0
+  [0.1.1]: git+https://github.com/AckeeCZ/changelog-it.git/compare/v0.1.0...v0.1.1
 
+[0.3.0]: git+https://github.com/AckeeCZ/changelog-it.git/compare/v0.2.1...v0.3.0
 [0.2.1]: git+https://github.com/AckeeCZ/changelog-it.git/compare/v0.2.0...v0.2.1
 [0.2.0]: git+https://github.com/AckeeCZ/changelog-it.git/compare/v0.1.1...v0.2.0
 [0.1.1]: git+https://github.com/AckeeCZ/changelog-it.git/compare/v0.1.0...v0.1.1
