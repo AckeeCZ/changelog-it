@@ -4,7 +4,7 @@
   "description": "Easy to use tool for maintaining your changelog if you release with `npm version`",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "version": "PKG_PATH=$(pwd) node index.js && vim CHANGELOG.md && git add CHANGELOG.md",
     "lol": "echo pwd"
   },
@@ -30,6 +30,7 @@
     "prompt": "^1.0.0"
   },
   "devDependencies": {
+    "jest": "^24.8.0",
     "prettier-config-ackee": "0.0.13"
   },
   "bin": {
