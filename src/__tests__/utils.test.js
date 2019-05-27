@@ -40,11 +40,15 @@ describe('sanitizeChangelog', () => {
     ## [0.2.3] - 2019-02-15
     ### Remved
     - Some unused code
+    ### Addedddd
+    - Changelog
     `;
 
     expect(utils.sanitizeChangelog(changelogContent)).not.toContain('### Changad');
     expect(utils.sanitizeChangelog(changelogContent)).toContain('### Changed');
     expect(utils.sanitizeChangelog(changelogContent)).not.toContain('### Remved');
+    expect(utils.sanitizeChangelog(changelogContent)).toContain('### Changed');
+    expect(utils.sanitizeChangelog(changelogContent)).not.toContain('### Addedddd');
     expect(utils.sanitizeChangelog(changelogContent)).toContain('### Changed');
   });
 
