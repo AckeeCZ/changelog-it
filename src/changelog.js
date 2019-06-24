@@ -3,14 +3,15 @@ const path = require('path');
 const childProcess = require('child_process');
 const { parser, Release } = require('keep-a-changelog');
 const _ = require('lodash');
+const utils = require('./utils');
 
 const rootPath = process.env.PKG_PATH || path.resolve(__dirname, '../../..');
 
 const { version, repository } = require(path.resolve(rootPath, 'package.json'));
 
 const changelogPath = path.resolve(rootPath, 'CHANGELOG.md');
-
-const changelog = parser(fs.readFileSync(changelogPath, 'UTF-8'));
+const changelogContent = utils.sanitizeChangelog(fs.readFileSync(changelogPath, 'UTF-8'));
+const changelog = parser(changelogContent);
 
 const today = new Date();
 const month = _.padStart(today.getMonth() + 1, 2, '0');
