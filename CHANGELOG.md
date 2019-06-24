@@ -29,20 +29,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## 0.1.0 - 2019-01-30
 ### Added
 - Born of changelog-it package [`266ac5e`](https://github.com/AckeeCZ/changelog-it/commit/266ac5edf2bb8528acf39dd0bec893a11152c60f)
-  
-  [0.2.0]: git+https://github.com/AckeeCZ/changelog-it.git/compare/v0.1.1...v0.2.0
-  [0.1.1]: git+https://github.com/AckeeCZ/changelog-it.git/compare/v0.1.0...v0.1.1
-  
-  [0.2.1]: git+https://github.com/AckeeCZ/changelog-it.git/compare/v0.2.0...v0.2.1
-  [0.2.0]: git+https://github.com/AckeeCZ/changelog-it.git/compare/v0.1.1...v0.2.0
-  [0.1.1]: git+https://github.com/AckeeCZ/changelog-it.git/compare/v0.1.0...v0.1.1
-  
-  [0.3.0]: git+https://github.com/AckeeCZ/changelog-it.git/compare/v0.2.1...v0.3.0
-  [0.2.1]: git+https://github.com/AckeeCZ/changelog-it.git/compare/v0.2.0...v0.2.1
-  [0.2.0]: git+https://github.com/AckeeCZ/changelog-it.git/compare/v0.1.1...v0.2.0
-  [0.1.1]: git+https://github.com/AckeeCZ/changelog-it.git/compare/v0.1.0...v0.1.1
-
-[#2]: git+https://github.com/AckeeCZ/changelog-it.git/issues/2
 
 [0.4.0]: git+https://github.com/AckeeCZ/changelog-it.git/compare/v0.3.0...v0.4.0
 [0.3.0]: git+https://github.com/AckeeCZ/changelog-it.git/compare/v0.2.1...v0.3.0
