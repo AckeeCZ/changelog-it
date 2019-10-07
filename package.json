@@ -1,6 +1,6 @@
 {
   "name": "changelog-it",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Easy to use tool for maintaining your changelog if you release with `npm version`",
   "main": "index.js",
   "scripts": {
