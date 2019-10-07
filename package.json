@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/AckeeCZ/changelog-it#readme",
   "dependencies": {
+    "@babel/polyfill": "^7.6.0",
     "auto-changelog": "^1.11.0",
     "commander": "^2.19.0",
     "keep-a-changelog": "^0.7.0",
